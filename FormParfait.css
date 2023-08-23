@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.parent{
+    display: flex;
+    border: 1px solid green;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    width: 50vh;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px;
+    
+    justify-content: center;
+    align-items: center;
+    width: 35vh;
+    height: 35vh;
+}
+.submit {
+    margin-top: 10px;
+    margin-right: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    width: 100px;
+}
+.reset {
+    border-radius: 10px;
+    background-color: green;
+    width: 100px;
+}
+.inputuser {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputmdp {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+legend{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+a{
+    font-size: small;
+    margin-left: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+a:hover {
+    color: purple;
+    font-size: large;
+    border: 1px solid purple;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    width: 200px;
+    text-align: center;
+}
